@@ -1,0 +1,36 @@
+@use './var' as v;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  outline: none;
+  color: v.$grey-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem 0;
+  background: linear-gradient(180deg, v.$grey-900 60%, v.$green-600 160%);
+}
+
+.required-field {
+  margin-left: 0.5rem;
+  color: v.$green-600;
+}
+
+@media (min-width: 1024px) {
+  main {
+    padding: 6rem 0;
+  }
+}
