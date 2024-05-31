@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Github](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/contact-form-made-with-vue-ts-Rm66M4InC8)
+- Live Site URL: [Github](https://r3ygoski.github.io/contact-form-vue/)
 
 ## My process
 
